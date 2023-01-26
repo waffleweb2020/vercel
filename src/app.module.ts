@@ -8,7 +8,7 @@ import {SequelizeModule} from "@nestjs/sequelize";
   imports: [
     SequelizeModule.forRoot({
       dialect: 'postgres',
-      host: 'https://vercel-sooty-tau.vercel.app ',
+      host: 'https://vercel-sooty-tau.vercel.app',
       port: 5432,
       username: 'postgres',
       password: 'qwerty',
